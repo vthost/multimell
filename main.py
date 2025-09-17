@@ -114,7 +114,7 @@ save_dataset(new_dataset_dict, new_task_data_path)
 
 create_new_task_config(task_config, new_task_data_path, new_task_config_path, new_task_postfix, list(new_dataset_dict.keys()))
 
-# Create an empty Namespace object
+
 parser = setup_parser()
 args = parse_eval_args(parser)
 args.device = 'mps'
